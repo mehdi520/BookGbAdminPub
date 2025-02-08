@@ -1,0 +1,335 @@
+﻿@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'), url(https://example.com/MaterialIcons-Regular.woff) format('woff'), url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px; /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+.mock {
+    position: absolute;
+}
+
+.contentcrd {
+    position: absolute;
+    width: 284px;
+    height: 473px;
+    outline: 1px solid #000;
+    top: 21.5rem;
+    left: 189.8px;
+    margin-bottom: 5rem;
+    transform: translate3d(-50%,-50%,0);
+}
+
+/*.accordion {
+    background-color: rgb(247, 247, 247);
+    color: #007bff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    border: 1px solid #00000038;
+}*/
+
+.minicolors input {
+    padding: 16px !important;
+    text-align: left;
+}
+
+/*.active, .accordion:hover {
+    background-color: #ccc;
+}*/
+
+/*.panel {
+    padding: 0 18px;
+    background-color: #fff !important;
+    float: left;
+    width: 100%;
+    transition: max-height 0.2s ease-out;
+    margin: 0;
+}*/
+
+/*.panin {
+    width: 100%;
+    float: left;
+    padding: 18px 0;
+}*/
+
+.appbg {
+    position: unset;
+}
+
+.appbgset {
+    position: absolute;
+    width: 344px;
+    height: 716px;
+    top: 3px;
+    border: none;
+    left: 18px;
+    border-top-left-radius: 3717px -119px;
+    border-radius: 49px;
+}
+
+.box-col {
+    width: 300px;
+}
+
+.Color .clrbg {
+    display: block;
+}
+
+.color .imgbg {
+    display: none;
+}
+
+.image .clrbg {
+    display: none;
+}
+
+.image .imgbg {
+    display: block !important;
+}
+
+.Color.preview {
+    display: none;
+}
+
+.image.preview {
+    position: absolute;
+}
+
+#ContentPlaceHolder1_pnlList {
+    width: 100%;
+    float: left;
+}
+
+#ContentPlaceHolder1_divAdd input {
+    width: 100%;
+    float: left;
+    padding: 9px;
+    border: 1px solid #ced4da;
+}
+
+#ContentPlaceHolder1_divAdd label {
+    width: 100%;
+    float: left;
+}
+
+#ContentPlaceHolder1_txtNostamps {
+    padding: 18px !important;
+}
+
+#ContentPlaceHolder1_divAdd h6 {
+    float: left;
+}
+
+.accordion.active {
+    background-color: #f7f7f7;
+}
+
+#ContentPlaceHolder1_ddlBackGroundType {
+    border: 1px solid #ced4da;
+    width: 100%;
+    padding: 9px;
+}
+
+body {
+    font-size: 15px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+.subtxtp {
+    font-size: 22px;
+}
+
+.bgg #ContentPlaceHolder1_DStamps {
+    display: block !important;
+}
+
+.bgg #ContentPlaceHolder1_DUnStamps {
+    display: none !important;
+}
+
+.bg #ContentPlaceHolder1_DStamps {
+    display: none !important;
+}
+
+.bg #ContentPlaceHolder1_DUnStamps {
+    display: block !important;
+}
+
+#ContentPlaceHolder1_DUnStamps img {
+    position: absolute;
+}
+
+#ContentPlaceHolder1_DStamps img {
+    position: absolute;
+}
+
+.minicolors-theme-bootstrap .minicolors-swatch {
+    z-index: 2;
+    top: 4px !important;
+    left: 93% !important;
+    width: 28px;
+    height: 28px;
+    border-radius: 2px;
+}
+
+#ContentPlaceHolder1_imgInp {
+    margin-top: 19px;
+}
+
+.minicolors.minicolors-theme-bootstrap.minicolors-position-bottom {
+    width: 100%;
+    float: left;
+}
+
+#ContentPlaceHolder1_logopr {
+    margin: 5px 0 10px 0;
+}
+
+.wfm {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+
+.dnyscript input {
+    padding: 2px;
+}
+
+.dnyscript p {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+
+.mruvv #mrimge {
+    display: none !important;
+}
+
+.mruvv #mrimges {
+    display: block !important;
+}
+
+.mruv #mrimge {
+    display: block !important;
+}
+
+.mruv #mrimges {
+    display: none !important;
+}
+
+.titl {
+    font-size: 31px;
+    margin: 0;
+}
+
+.font-group {
+    width: max-content;
+    border: 1px solid #5a6667;
+    border-radius: 5px;
+    float: left;
+}
+
+button.font-minus {
+    padding: 10px 16px;
+    font-size: 16px;
+    font-weight: 100;
+    color: #ffffff;
+    border: 1px solid #5a6667;
+    border-radius: 4px 0x 0px 4px;
+    background: #5a6667;
+}
+
+span.font-main.ng-binding {
+    padding: 15px;
+    font-size: 20px;
+}
+
+button.font-plus {
+    padding: 10px 16px;
+    font-size: 16px;
+    font-weight: 100;
+    color: #ffffff;
+    border: 1px solid #5a6667;
+    border-radius: 0px 4px 4px 0px;
+    background: #5a6667;
+}
+
+.wruvv #wrimg {
+    display: none !important;
+}
+
+.wruvv #wrimgs {
+    display: block !important;
+}
+
+.wruv #wrimg {
+    display: block !important;
+}
+
+.wruv #wrimgs {
+    display: none !important;
+}
+
+.stampimg.smruvv {
+    background-color: #fff;
+}
+
+.stampimg.smruv {
+    background-color: #f0f0f0;
+}
+
+.stampimg.umruvv {
+    background-color: #f0f0f0;
+}
+
+.stampimg.umruv {
+    background-color: #fff;
+}
+
+.stampimg.swruv {
+    background-color: #f0f0f0;
+}
+
+.stampimg.uwruv {
+    background-color: #fff;
+}
+
+.stampimg.swruvv {
+    background-color: #fff;
+}
+
+.stampimg.uwruvv {
+    background-color: #f0f0f0;
+}
